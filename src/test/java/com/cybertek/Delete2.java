@@ -7,7 +7,7 @@ public class Delete2 {
 
     //Merhaba
     
-    
+    // bu bir deneme
     //Selam//Test
 }
      // hello
