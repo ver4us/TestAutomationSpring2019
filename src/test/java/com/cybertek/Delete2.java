@@ -4,4 +4,6 @@ public class Delete2 {
 
 
     //xxxxxxxxxxxxxxxxxx
+
+    //Merhaba
 }
