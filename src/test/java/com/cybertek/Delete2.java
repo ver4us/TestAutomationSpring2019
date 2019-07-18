@@ -11,3 +11,4 @@ public class Delete2 {
     //Selam//Test
 }
      // hello
+   //deneme ok
