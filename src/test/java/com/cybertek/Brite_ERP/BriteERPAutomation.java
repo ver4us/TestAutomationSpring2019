@@ -1,13 +1,9 @@
 package com.cybertek.Brite_ERP;
 
-import com.cybertek.utilities.BriteERPUtils;
-import com.cybertek.utilities.SeleniumUtils;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -21,6 +17,7 @@ public class BriteERPAutomation {
 
     WebDriver driver;
     String successfulLoginLocator = "o_thread_title";
+    String successfulExpensesLocator = "//li[@class='active'][contains(text(),'My Expenses to Submit')]";
 
     @BeforeMethod
     public void setup(){
@@ -37,6 +34,9 @@ public class BriteERPAutomation {
         String expected_message = "Congratulations, your inbox is empty";
         Assert.assertEquals(expected_message, driver.findElement(By.className(successfulLoginLocator)).getText());
         driver.findElement(By.partialLinkText("Expenses")).click();
+        Assert.assertEquals(expected_message, driver.findElement(By.xpath(successfulExpensesLocator)).getText());
+
+
     }
 
 
