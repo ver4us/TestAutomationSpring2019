@@ -3,6 +3,7 @@ package com.cybertek.Brite_ERP;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -18,6 +19,8 @@ public class BriteERPAutomation {
     WebDriver driver;
     String successfulLoginLocator = "o_thread_title";
     String successfulExpensesLocator = "//li[@class='active'][contains(text(),'My Expenses to Submit')]";
+    String createButtonLocator = "//button[@class='btn btn-primary btn-sm o_list_button_add']";
+    String productDropdownLocator = "(//span[@class='o_dropdown_button'])[1]";
 
     @BeforeMethod
     public void setup(){
@@ -34,9 +37,14 @@ public class BriteERPAutomation {
         String expected_message = "Congratulations, your inbox is empty";
         Assert.assertEquals(expected_message, driver.findElement(By.className(successfulLoginLocator)).getText());
         driver.findElement(By.partialLinkText("Expenses")).click();
+        //Check if Expenses Page is displayed successfully
+        expected_message = "My Expenses to Submit";
         Assert.assertEquals(expected_message, driver.findElement(By.xpath(successfulExpensesLocator)).getText());
-
-
+        // Find and click the create button
+        driver.findElement(By.xpath(createButtonLocator)).click();
+        //Find the product dropdown button
+        WebElement productDropdownButton = driver.findElement(By.xpath(productDropdownLocator));
+        productDropdownButton.click();
     }
 
 

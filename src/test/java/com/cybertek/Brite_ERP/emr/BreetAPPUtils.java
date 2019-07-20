@@ -31,11 +31,12 @@ public class BreetAPPUtils {
 
     }
 
-//    public static void takeAscreenShot(String Event) throws IOException{
-//
-//        //Here I am taking the screenshot
-//        File file=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-//        //Here I want to store it
-//        FileUtils.copyFile(file, (new File("/Users/emraypala/IdeaProjects/TestSeleniumAutomation/src/test/java/Homeworks")) + Event + ".jpg"));
-//    }
+    public static void takeAscreenShot(String Event) throws IOException{
+
+        //Here I am taking the screenshot
+        TakesScreenshot file=(TakesScreenshot)driver;
+        File source= file.getScreenshotAs(OutputType.FILE);
+        //Here I want to store it
+        FileUtils.copyFile(source, new File("/Users/Kursat/IdeaProjects/TestAutomationSpring2019/src/test/java/Homeworks/" + Event + ".jpg"));
+    }
 }
