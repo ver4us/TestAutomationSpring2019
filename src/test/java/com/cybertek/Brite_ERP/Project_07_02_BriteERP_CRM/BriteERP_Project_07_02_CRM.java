@@ -1,11 +1,14 @@
 package com.cybertek.Brite_ERP.Project_07_02_BriteERP_CRM;
 
 import com.cybertek.pages.Project_07_02_BriteERP_CRM.LoginPage;
+import com.cybertek.utilities.Project_07_02_BriteERP_CRM.BriteERPUtils;
 import com.cybertek.utilities.Project_07_02_BriteERP_CRM.ConfigurationReader;
 import com.cybertek.utilities.Project_07_02_BriteERP_CRM.TestBase;
 import com.cybertek.utilities.SeleniumUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -14,6 +17,8 @@ import org.testng.annotations.Test;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
+
+import static com.cybertek.utilities.Project_07_02_BriteERP_CRM.ConfigurationReader.getProperty;
 //import java.util.Random;
 
 
@@ -26,10 +31,10 @@ public class BriteERP_Project_07_02_CRM extends TestBase {
     @Test (priority=1)
     public void listView(){
         //we are reading username from .properties file
-        String username = ConfigurationReader.getProperty("username");
+        String username = getProperty("username");
 
         //we are reading password from .properties file
-        String password = ConfigurationReader.getProperty("password");
+        String password = getProperty("password");
 
         //login to BriteERP website as events crm manager which is specified in configuration.properties
         loginPage.login(username,password);
@@ -73,7 +78,10 @@ public class BriteERP_Project_07_02_CRM extends TestBase {
 
         //create random number for opportunities between 1 and 5
         Random rand = new Random();
-        int randomNumber = rand.nextInt(5);
+        //int randomNumber = rand.nextInt(1);
+        String max = ConfigurationReader.getProperty("maxOpportunitiesToCreate");
+        int number = Integer.valueOf(max);
+        int randomNumber = rand.nextInt(number);
         ++randomNumber;
         System.out.println(randomNumber + " opportunities will be created");
 
@@ -85,10 +93,10 @@ public class BriteERP_Project_07_02_CRM extends TestBase {
         // create randomNumber of opportunities
         for(int i=0; i < randomNumber;i++){
             System.out.println("Creating Opportunity Number : " + (i+1));
-            SeleniumUtils.waitPlease(1);
+            SeleniumUtils.waitPlease(3);
             //find and click the create button
             driver.findElement(By.cssSelector(BriteERP_LocatorsandMessages.createButtonLocator)).click();
-            SeleniumUtils.waitPlease(1);
+            SeleniumUtils.waitPlease(3);
             // Enter Opportunity Title
             String textForOpportunityTitle = "Title " +  (i+1) + " time: " + LocalTime.now().format(DateTimeFormatter.ofPattern("h:mm:ss"));
             driver.findElement(By.cssSelector(BriteERP_LocatorsandMessages.inputOpportunityTitleLocator)).sendKeys(textForOpportunityTitle);
@@ -97,7 +105,7 @@ public class BriteERP_Project_07_02_CRM extends TestBase {
            // WebDriverWait wait = new WebDriverWait(driver, Long.valueOf(ConfigurationReader.getProperty("explicitwait")));
            // wait.until(ExpectedConditions.elementToBeClickable(By.xpath(BriteERP_LocatorsandMessages.inputCustomerLocator)));
             driver.findElement(By.xpath(BriteERP_LocatorsandMessages.inputCustomerLocator)).click();
-            SeleniumUtils.waitPlease(3);
+            SeleniumUtils.waitPlease(2);
             // put all the available Customer Input Box options to a list of WebElements called listOfCustomerOptions
             listOfCustomerOptions = driver.findElements(By.xpath(BriteERP_LocatorsandMessages.listOfCustomerOptionsLocator));
             // select a random number that will be used as index to select Customer Options
@@ -135,26 +143,123 @@ public class BriteERP_Project_07_02_CRM extends TestBase {
             //find and click the priority button
             SeleniumUtils.waitPlease(1);
             driver.findElement(By.xpath(priorityLocator)).click();
+
+            BriteERPUtils.takeAscreenShot("Test");
+
             // find and click create button
             driver.findElement(By.name(BriteERP_LocatorsandMessages.createOpportunityButtonLocator)).click();
+        } // for(int i=0; i < randomNumber;i++){
 
 
 
-        }
+        SeleniumUtils.waitPlease(3);
+
+        // go back to list view
+        WebElement crmListButton = driver.findElement(By.cssSelector(BriteERP_LocatorsandMessages.crmListButtonLocator));
+        crmListButton.click();
+        // get the number of Opportunities after creating new ones
+        SeleniumUtils.waitPlease(3);
+        //WebDriverWait wait = new WebDriverWait(driver, Long.valueOf(ConfigurationReader.getProperty("explicitwait")));
+        // wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.cssSelector(BriteERP_LocatorsandMessages.numberOfOpportunitiesLocator))));
+        numberOfOpportunitiesElement = driver.findElement(By.cssSelector(BriteERP_LocatorsandMessages.numberOfOpportunitiesLocator));
+        BriteERP_LocatorsandMessages.numberOfOpportunities_after = Integer.valueOf(numberOfOpportunitiesElement.getText());
+        System.out.println("Number of opportunities before adding new ones: " + BriteERP_LocatorsandMessages.numberOfOpportunities);
+        System.out.println("Number of opportunities to be added: " + randomNumber);
+        System.out.println("Number of opportunities after adding new ones: " + BriteERP_LocatorsandMessages.numberOfOpportunities_after);
+        Assert.assertEquals(BriteERP_LocatorsandMessages.numberOfOpportunities + randomNumber,BriteERP_LocatorsandMessages.numberOfOpportunities_after);
+
+        // reset the number of Opportunities after adding new ones
+        BriteERP_LocatorsandMessages.numberOfOpportunities = BriteERP_LocatorsandMessages.numberOfOpportunities_after;
+
+        //return to Kanban view
+        SeleniumUtils.waitPlease(3);
+        driver.findElement(By.cssSelector(BriteERP_LocatorsandMessages.kanbanViewButtonLocator)).click();
 
 
 
 
 
+        System.out.println("Total Number of Opportunities Before Deleting : " + BriteERP_LocatorsandMessages.numberOfOpportunities);
 
-        //Select one of the opportunities to delete randomly
+        //Select Number of opportunities to be deleted
+       // randomNumber=1;
+       // randomNumber = rand.nextInt(BriteERP_LocatorsandMessages.numberOfOpportunities)+1;
+        max = ConfigurationReader.getProperty("maxOpportunitiesToDelete");
+        number = Integer.valueOf(max);
+        randomNumber = rand.nextInt(number);
+        ++randomNumber;
+
+
+        System.out.println("Number of Opportunities to be Deleted : " + randomNumber);
+
+        // delete randomNumber of opportunities
+        for(int i=0; i < randomNumber;i++) {
+
+
+            // put all the available Opportunities to a list of WebElements called listOfOpportunities
+            SeleniumUtils.waitPlease(3);
+            List<WebElement> listOfOpportunities = driver.findElements(By.xpath(BriteERP_LocatorsandMessages.listOfOpportunitiesLocator));
+
+
+            System.out.println("Deleting Opportunity : " + (i+1) + "/" + randomNumber);
+            SeleniumUtils.waitPlease(3);
+            //Select an index randomly for one of the opportunities to be deleted
+            int randomNumber2 = rand.nextInt( listOfOpportunities.size());
+            //int randomNumber2=0;
+
+            System.out.println("Selected Opportunity row number : " + (randomNumber2+1));
+            String OpportunityToBeDeletedLocator = BriteERP_LocatorsandMessages.listOfOpportunitiesLocator + "[" + (randomNumber2 + 1) + "]";
+            String threeDotLocator = "(" + BriteERP_LocatorsandMessages.listOfThreeDotsLocator + ")[" + (randomNumber2 + 1) + "]";
+            System.out.println("Locator for Opportunity that will be deleted : " + OpportunityToBeDeletedLocator);
+            System.out.println("Locator for Three Dots of Opportunity that will be deleted : " + threeDotLocator);
+
+            WebElement opportunityToBeDeletedElement = driver.findElement(By.xpath(OpportunityToBeDeletedLocator));
+            JavascriptExecutor js = (JavascriptExecutor) driver;
+            js.executeScript("arguments[0].scrollIntoView(true)",opportunityToBeDeletedElement);
+            SeleniumUtils.waitPlease(1);
 
 
 
-      //  driver.findElement(By.xpath("(//a[@class='dropdown-toggle btn'])[")).click();
+
+            SeleniumUtils.waitPlease(4);
+            Actions action = new Actions(driver);
+            action.moveToElement(driver.findElement(By.xpath(OpportunityToBeDeletedLocator))).perform();
+            SeleniumUtils.waitPlease(4);
+            action.moveToElement(driver.findElement(By.xpath(threeDotLocator))).perform();
+            SeleniumUtils.waitPlease(3);
+            driver.findElement(By.xpath(threeDotLocator)).click();
+            String deleteButtonLocator = BriteERP_LocatorsandMessages.deleteButtonLocator + "[" + (randomNumber2 + 1) + "]";
+            SeleniumUtils.waitPlease(3);
+            driver.findElement(By.xpath(deleteButtonLocator)).click();
+//            action.moveToElement(driver.findElement(By.xpath(OpportunityToBeDeletedLocator))).
+//                    pause(1000).moveToElement(driver.findElement(By.xpath(BriteERP_LocatorsandMessages.deleteButtonLocator))).
+//                    click().build().perform();
+           // SeleniumUtils.waitPlease(3);
+           // driver.findElement(By.xpath(BriteERP_LocatorsandMessages.deleteButtonLocator)).click();
+            SeleniumUtils.waitPlease(3);
+            driver.findElement(By.xpath(BriteERP_LocatorsandMessages.deleteOkButtonLocator)).click();
+
+
+        } //// for(int i=0; i < randomNumber;i++)
+
+        // go back to list view
+        SeleniumUtils.waitPlease(3);
+        crmListButton = driver.findElement(By.cssSelector(BriteERP_LocatorsandMessages.crmListButtonLocator));
+        crmListButton.click();
+        // get the number of Opportunities after creating new ones
+        SeleniumUtils.waitPlease(3);
+        //WebDriverWait wait = new WebDriverWait(driver, Long.valueOf(ConfigurationReader.getProperty("explicitwait")));
+        // wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.cssSelector(BriteERP_LocatorsandMessages.numberOfOpportunitiesLocator))));
+        numberOfOpportunitiesElement = driver.findElement(By.cssSelector(BriteERP_LocatorsandMessages.numberOfOpportunitiesLocator));
+        BriteERP_LocatorsandMessages.numberOfOpportunities_after = Integer.valueOf(numberOfOpportunitiesElement.getText());
+
+        System.out.println("Number of opportunities before deleting: " + BriteERP_LocatorsandMessages.numberOfOpportunities);
+        System.out.println("Number of opportunities deleted: " + randomNumber);
+        System.out.println("Number of opportunities after deleting: " + BriteERP_LocatorsandMessages.numberOfOpportunities_after);
+        Assert.assertEquals(BriteERP_LocatorsandMessages.numberOfOpportunities,BriteERP_LocatorsandMessages.numberOfOpportunities_after + randomNumber);
 
 
 
-    }
+    }///     public void createAndDeleteOpportunity() {
 
-}
+} ////  public class BriteERP_Project_07_02_CRM extends TestBase {

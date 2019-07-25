@@ -13,13 +13,20 @@ public class BriteERP_LocatorsandMessages {
     static String inputOpportunityTitleLocator = "input[name='name']";   // css locator
    // static String inputCustomerLocator = "(//span[@class='o_dropdown_button'])[1]"; //xpath
     static String inputCustomerLocator = "//div[@class='o_input_dropdown']//input"; //xpath
+    //static String listOfOpportunitiesLocator = "//div[starts-with(@class,'oe_kanban_color')]";   //xpath
 
-
+    static String listOfOpportunitiesLocator = "//div[contains(@class,'oe_kanban_color')]";   //xpath
     static String listOfCustomerOptionsLocator = "//li[starts-with(@id,'ui-id')]"; //xpath
-    //static String threeDotLocator = "a.dropdown-toggle.btn"; // css locator
-    static String threeDotLocator = "(//a[@class='dropdown-toggle btn'])[" + "]"; // xpath
+
     static String expectedRevenueLocator = "//input[@name='planned_revenue']";   //xpath
     static String createOpportunityButtonLocator = "close_dialog";  //name
+    static String deleteButtonLocator = "(//a[@data-type='delete'])";   // xpath
+    static String deleteOkButtonLocator = "//span[contains(text(),'Ok')]";  //xpath
+    static String listOfThreeDotsLocator = "//a[@class='dropdown-toggle btn']"; // xpath
+   // static String threeDotLocator = "(//a[@class='dropdown-toggle btn'])[" + "]"; // xpath
+
+
+
 
     static String loginExpectedMessage = "Congratulations, your inbox is empty";
     static String CRMExpectedMessage = "Pipeline";
