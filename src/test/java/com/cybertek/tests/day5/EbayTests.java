@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;
-public class EbayTests {
+public class  EbayTests {
     static WebDriver driver2 = BrowserFactory.getDriver("chrome");
     public static void main(String[] args) throws Exception{
         // test1();

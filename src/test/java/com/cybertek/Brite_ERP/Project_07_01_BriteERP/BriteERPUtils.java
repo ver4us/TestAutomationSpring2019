@@ -1,4 +1,4 @@
-package com.cybertek.Brite_ERP;
+package com.cybertek.Brite_ERP.Project_07_01_BriteERP;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;

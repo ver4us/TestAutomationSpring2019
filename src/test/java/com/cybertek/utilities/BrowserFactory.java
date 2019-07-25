@@ -19,8 +19,4 @@ public class BrowserFactory {
             throw new IllegalArgumentException("Wrong browser name!");
         }
     }
-
-
-
-
 }

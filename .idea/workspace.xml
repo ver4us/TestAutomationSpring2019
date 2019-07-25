@@ -1,87 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/configuration.properties" line="37" mnemonic="3" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1d16d5f9-34ab-4ab5-8c84-6c4954bb29ff" name="Default Changelist" comment="2019 07 20 1530">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/vytrack/CalendarEventsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/vytrack/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_properties_singleton_driver_test_base/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_properties_singleton_driver_test_base/LoginTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_properties_singleton_driver_test_base/SingletonDriverTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_properties_singleton_driver_test_base/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day15_review/CalendarEventsTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/Brite_ERP/Project_07_01_BriteERP/BriteERPAutomation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/Brite_ERP/Project_07_02_BriteERP_CRM/BriteERP_LocatorsandMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/Brite_ERP/Project_07_02_BriteERP_CRM/BriteERP_Project_07_02_CRM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/Brite_ERP/emr/Synchronization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/Project_07_02_BriteERP_CRM/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day16_webtables/WebTableTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day17_webtables_day2/BriteERP_ReadTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day17_webtables_day2/TableOneTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day17_webtables_day2/WebTableTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/BrowserUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/Project_07_02_BriteERP_CRM/ConfigurationReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/Project_07_02_BriteERP_CRM/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/Project_07_02_BriteERP_CRM/TestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/day10/MultipleButtonsTestsWithCSSSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day10/MultipleButtonsTestsWithCSSSelector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/day10/RegistrationFormTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day10/RegistrationFormTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/day11_vytrack/CreateButtonTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day11_vytrack/CreateButtonTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/day11_vytrack/CreateCalendarEventTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day11_vytrack/CreateCalendarEventTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/day11_vytrack/SaveAndCancelOptionsTests_old_name_changed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day11_vytrack/SaveAndCancelOptionsTests_old_name_changed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/day12/ExplicitWaitTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day12/ExplicitWaitTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/day12/ThreadSleepAndImplicitWaitTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day12/ThreadSleepAndImplicitWaitTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/day13_actions_jsexecutor/ActionsClassTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day13_actions_jsexecutor/ActionsClassTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/day13_actions_jsexecutor/JavaScriptExecutorTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day13_actions_jsexecutor/JavaScriptExecutorTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/day14_properties_singleton_driver_test_base/ConfigurationReaderTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_properties_singleton_driver_test_base/ConfigurationReaderTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/day14_properties_singleton_driver_test_base/SystemPropertiesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_properties_singleton_driver_test_base/SystemPropertiesTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/day5/CheckBoxTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day5/CheckBoxTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/day5/EbayTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day5/EbayTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/day5/LocatorsPracticeClassName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day5/LocatorsPracticeClassName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/day5/LocatorsPracticeID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day5/LocatorsPracticeID.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/day5/LocatorsPracticeTagname.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day5/LocatorsPracticeTagname.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/day5/LocatorsPracticeXpath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day5/LocatorsPracticeXpath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/day5/RadioButtonTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day5/RadioButtonTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/day5/TaskJuly02_VerifyAmazonTitle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day5/TaskJuly02_VerifyAmazonTitle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/day5/TaskJuly02_Wikipedia_Selenium_Ends_x.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day5/TaskJuly02_Wikipedia_Selenium_Ends_x.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/day5/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day5/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/day7/DropDownsPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day7/DropDownsPractice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/day8_testng_intro/BeforeAndAfterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day8_testng_intro/BeforeAndAfterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/day8_testng_intro/JavaTestNGDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day8_testng_intro/JavaTestNGDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/day8_testng_intro/MixedAnnotationTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day8_testng_intro/MixedAnnotationTesting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/day8_testng_intro/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day8_testng_intro/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/day9/AbsoluteXpathDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day9/AbsoluteXpathDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/day9/MultipleButtonsPracticeWithXpath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day9/MultipleButtonsPracticeWithXpath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/VYTrackUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/VYTrackUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/Brite_ERP/BriteERPAutomation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/Brite_ERP/BriteERPAutomation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/Delete.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/Delete.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/day10/MultipleButtonsTestsWithCSSSelector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/day10/RegistrationFormTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/day11_vytrack/CreateButtonTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/day11_vytrack/CreateCalendarEventTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/day11_vytrack/SaveAndCancelOptionsTests_old_name_changed.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/day12/ExplicitWaitTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/day12/ThreadSleepAndImplicitWaitTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/day13_actions_jsexecutor/ActionsClassTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/day13_actions_jsexecutor/JavaScriptExecutorTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/day5/CheckBoxTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/day5/EbayTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/day5/LocatorsPracticeClassName.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/day5/LocatorsPracticeID.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/day5/LocatorsPracticeTagname.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/day5/LocatorsPracticeXpath.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/day5/RadioButtonTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/day5/TaskJuly02_VerifyAmazonTitle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/day5/TaskJuly02_Wikipedia_Selenium_Ends_x.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/day5/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/day7/DropDownsPractice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/day8_testng_intro/BeforeAndAfterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/day8_testng_intro/JavaTestNGDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/day8_testng_intro/MixedAnnotationTesting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/day8_testng_intro/Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/day9/AbsoluteXpathDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/day9/MultipleButtonsPracticeWithXpath.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/organize/CybertekPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/organize/CybertekPractice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/organize/GoogleResultsTitle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/organize/GoogleResultsTitle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/organize/HelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/organize/HelloWorld.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/organize/LinkTextExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/organize/LinkTextExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/organize/PracticeCybertekLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/organize/PracticeCybertekLogin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/organize/VyTrackLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/organize/VyTrackLogin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/organize/VyTrackLogin2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/organize/VyTrackLogin2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/organize/VyTrackLogin_Automation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/organize/VyTrackLogin_Automation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/utilities/BrowserFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/utilities/BrowserFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/utilities/SeleniumUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/utilities/SeleniumUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/Brite_ERP/BriteERPAutomation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/Brite_ERP/BriteERPUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/Brite_ERP/Project_07_01_BriteERP/BriteERPUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/vytrack/CalendarEventsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/vytrack/CalendarEventsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day5/EbayTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day5/EbayTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day7/DropDownsPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day7/DropDownsPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/BrowserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/BrowserFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/Brite_ERP/BriteERPAutomation.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/utilities/VYTrackUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/utilities/VYTrackUtils.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -96,45 +41,12 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/pages/vytrack/CalendarEventsPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2">
-              <caret line="20" column="7" selection-start-line="20" selection-end-line="20" selection-end-column="79" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day15_review/CalendarEventsTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/utilities/ConfigurationReader.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/Brite_ERP/Project_07_02_BriteERP_CRM/BriteERP_Project_07_02_CRM.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+            <state relative-caret-position="1116">
+              <caret line="92" column="130" selection-start-line="92" selection-start-column="130" selection-end-line="92" selection-end-column="130" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -143,13 +55,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/utilities/Driver.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/Brite_ERP/Project_07_02_BriteERP_CRM/BriteERP_LocatorsandMessages.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="57" column="17" lean-forward="true" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+            <state relative-caret-position="238">
+              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/utilities/Project_07_02_BriteERP_CRM/Driver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/configuration.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -167,6 +97,10 @@
     <findStrings>
       <find>buttons</find>
       <find>Opportunities</find>
+      <find>//li/a[contains(text(),'David Samson')]</find>
+      <find>//input[contains(@id,'o_field_input')])[3]</find>
+      <find>//button[@class='NavigationButton__NavButtonNew-sc-5g7hhu-3 bDCTBx indexesm__Button-sc-1ot0wsx-5 cTYdga</find>
+      <find>BriteERP_LocatorsandMessages.</find>
     </findStrings>
     <replaceStrings>
       <replace>elements</replace>
@@ -178,30 +112,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/day5/TaskJuly02_VerifyAmazonTitle.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/day5/TaskJuly02_Wikipedia_Selenium_Ends_x.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/day5/Test.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/GoogleResultsTitle.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/day7/DropDownsPractice.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/day8_testng_intro/JavaTestNGDemo.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/day8_testng_intro/BeforeAndAfterTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/day8_testng_intro/Task.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/organize/CybertekPractice.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/organize/PracticeCybertekLogin.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/day9/AbsoluteXpathDemo.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/day9/MultipleButtonsPracticeWithXpath.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/day10/RegistrationFormTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/day10/MultipleButtonsTestsWithCSSSelector.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/organize/GoogleResultsTitle.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/SeleniumUtils.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/day11_vytrack/SaveAndCancelOptionsTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/day11_vytrack/SaveAndCancelOptionsTests_old_name_changed.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/day11_vytrack/CreateCalendarEventTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/day12/ThreadSleepAndImplicitWaitTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/day12/ExplicitWaitTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/day11_vytrack/CreateButtonTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/BriteERPAutomation.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/BriteERPUtils.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cybertek/Delete.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cybertek/day13_actions_jsexecutor/ActionsClassTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cybertek/day13_actions_jsexecutor/JavaScriptExecutorTests.java" />
@@ -211,10 +121,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/cybertek/Brite_ERP/emr/SeleniumUtils1.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cybertek/Brite_ERP/BriteERPUtils.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cybertek/day14_properties_singleton_driver_test_base/SystemPropertiesTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/Brite_ERP/BriteERPAutomation.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cybertek/Brite_ERP/emr/BreetAPPUtils.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cybertek/Brite_ERP/emr/Hw_BreetAP.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/ConfigurationReader.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cybertek/day14_properties_singleton_driver_test_base/ConfigurationReaderTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cybertek/day14_properties_singleton_driver_test_base/SingletonDriverTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/Driver.java" />
@@ -225,22 +133,44 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_properties_singleton_driver_test_base/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/pages/vytrack/CalendarEventsPage.java" />
-        <option value="$PROJECT_DIR$/configuration.properties" />
         <option value="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day15_review/CalendarEventsTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/VYTrackUtils.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/Brite_ERP/BriteERPAutomation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/Brite_ERP/emr/Synchronization.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day5/EbayTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day7/DropDownsPractice.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/BrowserFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day16_webtables/WebTableTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/pages/vytrack/CalendarEventsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/ConfigurationReader.java" />
+        <option value="$PROJECT_DIR$/configuration.properties_Project_07_02_BriteERP_CRM" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/ConfigurationReader_Project_07_02_BriteERP_CRM.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/Driver_Project_07_02_BriteERP_CRM.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/Project_07_02_BriteERP_CRM/Driver_Project_07_02_BriteERP_CRM.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/Project_07_02_BriteERP_CRM/ConfigurationReader_Project_07_02_BriteERP_CRM.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/Project_07_02_BriteERP_CRM/Driver.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/Project_07_02_BriteERP_CRM/ConfigurationReader.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/Brite_ERP/Project_07_02_BriteERP_CRM/CalendarEventsTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/Brite_ERP/Project_07_02_BriteERP_CRM/BriteERP_Project_07.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/Brite_ERP/Project_07_02_BriteERP_CRM/BriteERP_Locators.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/pages/Project_07_02_BriteERP_CRM/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/Project_07_02_BriteERP_CRM/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/BrowserUtils.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/Brite_ERP/BriteERP_ReadTable.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day17_webtables_day2/BriteERP_ReadTable.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day17_webtables_day2/WebTableTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day17_webtables_day2/TableOneTest.java" />
+        <option value="$PROJECT_DIR$/configuration.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/Brite_ERP/Project_07_02_BriteERP_CRM/BriteERP_LocatorsandMessages.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cybertek/Brite_ERP/Project_07_02_BriteERP_CRM/BriteERP_Project_07_02_CRM.java" />
       </list>
     </option>
-  </component>
-  <component name="JavaAutoRunManager">
-    <enabled-run-configurations>
-      <run-configuration type="TestNG" name="SingletonDriverTests" />
-    </enabled-run-configurations>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
@@ -261,10 +191,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1458" />
-    <option name="y" value="139" />
-    <option name="width" value="1061" />
-    <option name="height" value="1022" />
+    <option name="x" value="1357" />
+    <option name="y" value="15" />
+    <option name="width" value="1814" />
+    <option name="height" value="1006" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -273,6 +203,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -324,6 +255,27 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="cybertek" type="462c0819:PsiDirectoryNode" />
+              <item name="Brite_ERP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestAutomationSpring2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestAutomationSpring2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cybertek" type="462c0819:PsiDirectoryNode" />
+              <item name="Brite_ERP" type="462c0819:PsiDirectoryNode" />
+              <item name="Project_07_02_BriteERP_CRM" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestAutomationSpring2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestAutomationSpring2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cybertek" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -335,7 +287,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="cybertek" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="vytrack" type="462c0819:PsiDirectoryNode" />
+              <item name="Project_07_02_BriteERP_CRM" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TestAutomationSpring2019" type="b2602c69:ProjectViewProjectNode" />
@@ -346,6 +298,28 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="cybertek" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestAutomationSpring2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestAutomationSpring2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cybertek" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="day10" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestAutomationSpring2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestAutomationSpring2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cybertek" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="day13_actions_jsexecutor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TestAutomationSpring2019" type="b2602c69:ProjectViewProjectNode" />
@@ -377,7 +351,8 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="cybertek" type="462c0819:PsiDirectoryNode" />
-              <item name="utilities" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="day16_webtables" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TestAutomationSpring2019" type="b2602c69:ProjectViewProjectNode" />
@@ -385,30 +360,39 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Homeworks" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cybertek" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="day17_webtables_day2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kursat\IdeaProjects\TestAutomationSpring2019" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cybertek.Brite_ERP" />
+      <recent name="com.cybertek.Brite_ERP.Project_07_02_BriteERP_CRM" />
+      <recent name="com.cybertek.pages.Project_07_02_BriteERP_CRM" />
+      <recent name="com.cybertek.utilities.Project_07_02_BriteERP_CRM" />
       <recent name="com.cybertek.utilities" />
-      <recent name="com.cybertek.pages.vytrack" />
-      <recent name="com.cybertek.Brite_ERP.emr" />
-      <recent name="com.cybertek.day11_vytrack" />
-      <recent name="com.cybertek.day5" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Kursat\IdeaProjects\TestAutomationSpring2019" />
+      <recent name="C:\Users\Kursat\IdeaProjects\TestAutomationSpring2019\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -423,17 +407,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.CalendarEventsTests.verifyRepeatOptions">
-    <configuration name="CalendarEventsTests" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.BriteERP_Project_07_02_CRM.createAndDeleteOpportunity">
+    <configuration name="BriteERP_Project_07_02_CRM" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestAutomationSpring2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day15_review.*" />
+          <option name="PATTERN" value="com.cybertek.Brite_ERP.Project_07_02_BriteERP_CRM.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day15_review" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day15_review.CalendarEventsTests" />
+      <option name="PACKAGE_NAME" value="com.cybertek.Brite_ERP.Project_07_02_BriteERP_CRM" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.Brite_ERP.Project_07_02_BriteERP_CRM.BriteERP_Project_07_02_CRM" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -441,17 +425,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalendarEventsTests.verifyRepeatOptions" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BriteERP_Project_07_02_CRM.createAndDeleteOpportunity" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestAutomationSpring2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day15_review.*" />
+          <option name="PATTERN" value="com.cybertek.Brite_ERP.Project_07_02_BriteERP_CRM.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day15_review" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day15_review.CalendarEventsTests" />
-      <option name="METHOD_NAME" value="verifyRepeatOptions" />
+      <option name="PACKAGE_NAME" value="com.cybertek.Brite_ERP.Project_07_02_BriteERP_CRM" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.Brite_ERP.Project_07_02_BriteERP_CRM.BriteERP_Project_07_02_CRM" />
+      <option name="METHOD_NAME" value="createAndDeleteOpportunity" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -459,51 +443,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WebTableTests.getColumnData" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestAutomationSpring2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.day14_properties_singleton_driver_test_base.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day17_webtables_day2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.day14_properties_singleton_driver_test_base" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.day14_properties_singleton_driver_test_base.LoginTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day17_webtables_day2" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day17_webtables_day2.WebTableTests" />
+      <option name="METHOD_NAME" value="getColumnData" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonDriverTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WebTableTests.getHeadersTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestAutomationSpring2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.day14_properties_singleton_driver_test_base.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day17_webtables_day2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.day14_properties_singleton_driver_test_base" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.day14_properties_singleton_driver_test_base.SingletonDriverTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day17_webtables_day2" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day17_webtables_day2.WebTableTests" />
+      <option name="METHOD_NAME" value="getHeadersTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SystemPropertiesTests.systemPropertiesTest1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WebTableTests.sortColumnTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestAutomationSpring2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.day14_properties_singleton_driver_test_base.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day17_webtables_day2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.day14_properties_singleton_driver_test_base" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.day14_properties_singleton_driver_test_base.SystemPropertiesTests" />
-      <option name="METHOD_NAME" value="systemPropertiesTest1" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day17_webtables_day2" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day17_webtables_day2.WebTableTests" />
+      <option name="METHOD_NAME" value="sortColumnTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -513,11 +499,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CalendarEventsTests.verifyRepeatOptions" />
-        <item itemvalue="TestNG.CalendarEventsTests" />
-        <item itemvalue="TestNG.LoginTests" />
-        <item itemvalue="TestNG.SingletonDriverTests" />
-        <item itemvalue="TestNG.SystemPropertiesTests.systemPropertiesTest1" />
+        <item itemvalue="TestNG.BriteERP_Project_07_02_CRM.createAndDeleteOpportunity" />
+        <item itemvalue="TestNG.BriteERP_Project_07_02_CRM" />
+        <item itemvalue="TestNG.WebTableTests.sortColumnTest" />
+        <item itemvalue="TestNG.WebTableTests.getColumnData" />
+        <item itemvalue="TestNG.WebTableTests.getHeadersTest" />
       </list>
     </recent_temporary>
   </component>
@@ -581,46 +567,52 @@
       <option name="project" value="LOCAL" />
       <updated>1563651035487</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="2019 07 20 1530">
+      <created>1563746076679</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1563746076679</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalendarEventsTests - 2019.07.21 at 15h 59m 02s.xml">
-      <configuration name="CalendarEventsTests" configurationId="TestNG" />
+    <history-entry file="BriteERP_Project_07_02_CRM_createAndDeleteOpportunity - 2019.07.25 at 10h 09m 32s.xml">
+      <configuration name="BriteERP_Project_07_02_CRM.createAndDeleteOpportunity" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CalendarEventsTests - 2019.07.21 at 16h 02m 45s.xml">
-      <configuration name="CalendarEventsTests" configurationId="TestNG" />
+    <history-entry file="BriteERP_Project_07_02_CRM_createAndDeleteOpportunity - 2019.07.25 at 10h 12m 26s.xml">
+      <configuration name="BriteERP_Project_07_02_CRM.createAndDeleteOpportunity" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CalendarEventsTests - 2019.07.21 at 16h 03m 51s.xml">
-      <configuration name="CalendarEventsTests" configurationId="TestNG" />
+    <history-entry file="BriteERP_Project_07_02_CRM_createAndDeleteOpportunity - 2019.07.25 at 10h 14m 15s.xml">
+      <configuration name="BriteERP_Project_07_02_CRM.createAndDeleteOpportunity" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CalendarEventsTests - 2019.07.21 at 16h 27m 45s.xml">
-      <configuration name="CalendarEventsTests" configurationId="TestNG" />
+    <history-entry file="BriteERP_Project_07_02_CRM_createAndDeleteOpportunity - 2019.07.25 at 10h 16m 31s.xml">
+      <configuration name="BriteERP_Project_07_02_CRM.createAndDeleteOpportunity" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CalendarEventsTests - 2019.07.21 at 16h 29m 22s.xml">
-      <configuration name="CalendarEventsTests" configurationId="TestNG" />
+    <history-entry file="BriteERP_Project_07_02_CRM_createAndDeleteOpportunity - 2019.07.25 at 10h 19m 28s.xml">
+      <configuration name="BriteERP_Project_07_02_CRM.createAndDeleteOpportunity" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CalendarEventsTests - 2019.07.21 at 16h 36m 23s.xml">
-      <configuration name="CalendarEventsTests" configurationId="TestNG" />
+    <history-entry file="BriteERP_Project_07_02_CRM_createAndDeleteOpportunity - 2019.07.25 at 10h 21m 14s.xml">
+      <configuration name="BriteERP_Project_07_02_CRM.createAndDeleteOpportunity" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CalendarEventsTests - 2019.07.21 at 16h 39m 15s.xml">
-      <configuration name="CalendarEventsTests" configurationId="TestNG" />
+    <history-entry file="BriteERP_Project_07_02_CRM_createAndDeleteOpportunity - 2019.07.25 at 10h 43m 49s.xml">
+      <configuration name="BriteERP_Project_07_02_CRM.createAndDeleteOpportunity" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CalendarEventsTests - 2019.07.21 at 16h 40m 51s.xml">
-      <configuration name="CalendarEventsTests" configurationId="TestNG" />
+    <history-entry file="BriteERP_Project_07_02_CRM_createAndDeleteOpportunity - 2019.07.25 at 10h 51m 42s.xml">
+      <configuration name="BriteERP_Project_07_02_CRM.createAndDeleteOpportunity" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CalendarEventsTests - 2019.07.21 at 16h 43m 48s.xml">
-      <configuration name="CalendarEventsTests" configurationId="TestNG" />
+    <history-entry file="BriteERP_Project_07_02_CRM_createAndDeleteOpportunity - 2019.07.25 at 10h 52m 42s.xml">
+      <configuration name="BriteERP_Project_07_02_CRM.createAndDeleteOpportunity" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CalendarEventsTests_verifyRepeatOptions - 2019.07.21 at 16h 45m 49s.xml">
-      <configuration name="CalendarEventsTests.verifyRepeatOptions" configurationId="TestNG" />
+    <history-entry file="BriteERP_Project_07_02_CRM_createAndDeleteOpportunity - 2019.07.25 at 10h 54m 05s.xml">
+      <configuration name="BriteERP_Project_07_02_CRM.createAndDeleteOpportunity" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="63" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="1358" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.79153436" visible="true" weight="0.23385416" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.79153436" visible="true" weight="0.17708333" />
       <window_info id="Structure" order="1" sideWeight="0.2084656" side_tool="true" weight="0.16614583" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -628,8 +620,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4984375" visible="true" weight="0.42222223" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32910052" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4984375" weight="0.34136125" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39968404" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -637,12 +629,12 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32910052" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5015625" side_tool="true" weight="0.27407408" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49947917" weight="0.37671956" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" sideWeight="0.49947917" visible="true" weight="0.3748691" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.098958336" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.09010417" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -670,190 +662,40 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day5/TaskJuly02_Wikipedia_Selenium_Ends_x.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day7/DropDownsPractice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="114" column="5" lean-forward="true" selection-start-line="113" selection-end-line="119" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/utilities/BrowserFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="14" selection-end-line="21" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/WebElement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day8_testng_intro/MixedAnnotationTesting.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/Delete2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day8_testng_intro/JavaTestNGDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#590#591#0" expanded="true" />
-            <element signature="e#631#632#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day8_testng_intro/BeforeAndAfterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
-            <element signature="e#678#679#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day9/MultipleButtonsPracticeWithXpath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="953">
-          <caret line="66" column="77" selection-start-line="66" selection-start-column="77" selection-end-line="66" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1242#1243#0" expanded="true" />
-            <element signature="e#1271#1272#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day8_testng_intro/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="3" selection-start-line="53" selection-start-column="3" selection-end-line="55" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/organize/CybertekPractice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="33" column="68" selection-start-line="33" selection-start-column="68" selection-end-line="33" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/organize/VyTrackLogin2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/organize/VyTrackLogin_Automation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/organize/VyTrackLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day10/MultipleButtonsTestsWithCSSSelector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1029">
-          <caret line="62" column="1" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#862#863#0" expanded="true" />
-            <element signature="e#917#918#0" expanded="true" />
-            <element signature="e#2124#2125#0" expanded="true" />
-            <element signature="e#2154#2155#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day10/RegistrationFormTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1256#1257#0" expanded="true" />
-            <element signature="e#1286#1287#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/organize/GoogleResultsTitle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="143" column="9" selection-start-line="143" selection-start-column="9" selection-end-line="143" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day11_vytrack/CreateCalendarEventTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1645">
-          <caret line="120" column="70" lean-forward="true" selection-start-line="120" selection-start-column="70" selection-end-line="120" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day11_vytrack/SaveAndCancelOptionsTests_old_name_changed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3459#3460#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day11_vytrack/CreateButtonTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="3" selection-start-line="31" selection-end-line="31" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/interactions/Actions.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4029">
-          <caret line="258" column="55" selection-start-line="258" selection-start-column="55" selection-end-line="258" selection-end-column="55" />
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/Delete.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="221">
           <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -861,146 +703,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/Delete2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day13_actions_jsexecutor/ActionsClassTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1955">
-          <caret line="115" column="27" selection-start-line="115" selection-start-column="27" selection-end-line="115" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day13_actions_jsexecutor/JavaScriptExecutorTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/configuration.properties" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/Brite_ERP/BriteERPAutomation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/Brite_ERP/BriteERPUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/Brite_ERP/emr/FileUtils.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/Brite_ERP/emr/BreetAPPUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="34" lean-forward="true" selection-start-line="33" selection-end-line="41" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/Brite_ERP/emr/SeleniumUtilities1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/Brite_ERP/emr/Hw_BreetAP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret line="88" column="37" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_properties_singleton_driver_test_base/ConfigurationReaderTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day7/DropDownsPractice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="42" column="7" selection-start-line="42" selection-end-line="43" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day5/CheckBoxTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/utilities/VYTrackUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <caret line="3" column="22" selection-end-line="58" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_properties_singleton_driver_test_base/LoginTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day8_testng_intro/BeforeAndAfterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_properties_singleton_driver_test_base/SingletonDriverTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day8_testng_intro/MixedAnnotationTesting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_properties_singleton_driver_test_base/SystemPropertiesTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day8_testng_intro/JavaTestNGDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="21" column="50" lean-forward="true" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Homeworks/Test.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/utilities/SeleniumUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1479">
-          <caret line="87" column="27" lean-forward="true" selection-end-line="98" />
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-end-line="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1009,8 +736,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day9/AbsoluteXpathDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="37" column="8" lean-forward="true" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="36" />
+        <state relative-caret-position="221">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day9/MultipleButtonsPracticeWithXpath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" lean-forward="true" selection-end-line="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day11_vytrack/CreateButtonTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day11_vytrack/SaveAndCancelOptionsTests_old_name_changed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-143">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day11_vytrack/CreateCalendarEventTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="14" selection-end-line="132" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day12/ThreadSleepAndImplicitWaitTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="747">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1019,28 +787,88 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day12/ExplicitWaitTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-238">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="4" column="11" lean-forward="true" selection-end-line="79" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/utilities/TestBase.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_properties_singleton_driver_test_base/SingletonDriverTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        <state>
+          <caret selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_properties_singleton_driver_test_base/LoginPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day16_webtables/WebTableTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="135" column="1" lean-forward="true" selection-start-line="135" selection-start-column="1" selection-end-line="135" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2273#2274#0" expanded="true" />
+            <element signature="e#2327#2328#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/utilities/ConfigurationReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/Brite_ERP/emr/Hw_BreetAP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="95" column="2" selection-start-line="95" selection-start-column="2" selection-end-line="95" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/Brite_ERP/emr/BreetAPPUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" selection-start-line="33" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configuration.properties_Project_07_02_BriteERP_CRM" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/utilities/Driver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_properties_singleton_driver_test_base/ConfigurationReaderTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/pages/vytrack/CalendarEventsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1057,17 +885,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configuration.properties">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/utilities/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="8" lean-forward="true" selection-end-line="7" selection-end-column="32" />
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/utilities/VYTrackUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/Brite_ERP/Project_07_01_BriteERP/BriteERPUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="68" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_properties_singleton_driver_test_base/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1084,36 +925,143 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day12/ThreadSleepAndImplicitWaitTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_properties_singleton_driver_test_base/LoginTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="102">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/pages/Project_07_02_BriteERP_CRM/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/pages/vytrack/CalendarEventsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2">
-          <caret line="20" column="7" selection-start-line="20" selection-end-line="20" selection-end-column="79" />
+        <state relative-caret-position="170">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/Brite_ERP/Project_07_01_BriteERP/BriteERPAutomation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="47" column="7" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/utilities/Project_07_02_BriteERP_CRM/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/utilities/Project_07_02_BriteERP_CRM/ConfigurationReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="1" selection-end-line="28" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/utilities/Project_07_02_BriteERP_CRM/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day17_webtables_day2/BriteERP_ReadTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="734">
+          <caret line="64" column="42" selection-start-line="64" selection-start-column="42" selection-end-line="64" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day17_webtables_day2/TableOneTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day17_webtables_day2/WebTableTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="118" column="49" selection-start-line="118" selection-start-column="49" selection-end-line="118" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/Brite_ERP/Project_07_02_BriteERP_CRM/BriteERP_LocatorsandMessages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day15_review/CalendarEventsTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
+        <state relative-caret-position="506">
+          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_properties_singleton_driver_test_base/SystemPropertiesTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="16" lean-forward="true" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day13_actions_jsexecutor/JavaScriptExecutorTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day13_actions_jsexecutor/ActionsClassTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day10/RegistrationFormTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1121,20 +1069,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/utilities/Driver.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/tests/day10/MultipleButtonsTestsWithCSSSelector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="57" column="17" lean-forward="true" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+        <state relative-caret-position="68">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/utilities/SeleniumUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/utilities/ConfigurationReader.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/utilities/BrowserUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        <state relative-caret-position="17">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configuration.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cybertek/Brite_ERP/Project_07_02_BriteERP_CRM/BriteERP_Project_07_02_CRM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1116">
+          <caret line="92" column="130" selection-start-line="92" selection-start-column="130" selection-end-line="92" selection-end-column="130" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1198,6 +1173,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

@@ -44,7 +44,6 @@ public class DropDownsPractice {
         Select dropdownSelect = new Select(dropdown1);
         String selected = dropdownSelect.getFirstSelectedOption().getText();
         System.out.println(selected);
-
     }
 
     public static void test2(){
